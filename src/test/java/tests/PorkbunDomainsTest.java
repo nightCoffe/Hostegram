@@ -1,6 +1,9 @@
 package tests;
 
+import io.qameta.allure.*;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+import tests.TestBase;
 
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Condition.visible;
@@ -9,6 +12,11 @@ import static io.qameta.allure.Allure.step;
 
 public class PorkbunDomainsTest extends TestBase {
     @Test
+    @Owner("nightCoffe")
+    @Feature("Offer")
+    @Story("PorkbunOffer")
+    @Severity(SeverityLevel.CRITICAL)
+    @DisplayName("Оффер от Porkbun")
     void PorkbunOffer() {
         step("Открываем главную страницу", () -> {
             openUrl();
