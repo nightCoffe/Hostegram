@@ -8,14 +8,15 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
+import static com.codeborne.selenide.Selenide.open;
 import static config.AppRemote.userRemoteConfig;
 import static java.lang.String.format;
 
 
 public class TestBase {
-//    public void openUrl() {
-//open("https://hostegram.com/");
-//    }
+    public void openUrl() {
+        open("https://hostegram.com/");
+    }
 
     @BeforeAll
     static void setup() {
