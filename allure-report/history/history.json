@@ -1,0 +1,193 @@
+{
+  "b91bdc02c70a5a4b465aa5035a300b01" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "28aace02512b44b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642187287101,
+        "stop" : 1642187312961,
+        "duration" : 25860
+      }
+    } ]
+  },
+  "52921801bea24fcbf7af4092f1c46ff3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9ffd3e7fc79aba49",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642188142812,
+        "stop" : 1642188150413,
+        "duration" : 7601
+      }
+    } ]
+  },
+  "a08854c6e899e33a5ecfa147188a0ea8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "da24308dfae88f28",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642796715192,
+        "stop" : 1642796717695,
+        "duration" : 2503
+      }
+    } ]
+  },
+  "3d829376d7c717158e7fe836b86ab520" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "92a5d85749732151",
+      "status" : "failed",
+      "statusDetails" : "Element should have value=\"https://clients.hostninjah.com/order.php?step=2&product=1&paymentTerm=12\" {.Post-body}\nElement: '<div class=\"Post-body\">HostNinjah is a small web hosting company founded on August 2020. Our vision for HostNinjah is to provide affordable yet reliable web hosting for Singaporeans. Although the branding \"HostNinjah\" is new, rest assured that the owner running the company is experienced in the web hosting industry. We start out small and grow together!\nThis is a special one off discount valid only until 31 January 2022. Use the code CNY22 to get an awesome 50% recurring discount (valid for annual payment only) on our shared hosting packages! Hurry Stocks are limited!\n  BASIC PLAN\n·        1 GB SSD Storage\n·        100 GB Bandwidth\n·        DirectAdmin Control Panel\n·        Unlimited Domains\n·        Unlimited Parked Domains\n·        Unlimited Subdomains\n·        Unlimited FTP Accounts\n·        Unlimited MySQL Databases\n·        Installatron & RVSitebuilder\n·        LiteSpeed Web Server\n·        CloudLinux System\n·        DDoS Protection\n·        Hosted In Singapore \nOnly $12/Year | Order Here\n  PREMIUM PLAN\n·        10 GB SSD Storage\n·        500 GB Bandwidth\n·        DirectAdmin Control Panel\n·        Unlimited Domains\n·        Unlimited Parked Domains\n·        Unlimited Subdomains\n·        Unlimited FTP Accounts\n·        Unlimited MySQL Databases\n·        Installatron & RVSitebuilder\n·        LiteSpeed Web Server\n·        CloudLinux System\n·        DDoS Protection\n·        Hosted In Singapore \nOnly $25/Year | Order Here\n  DEVELOPER PLAN\n·        50 GB SSD Storage\n·        UNMETERED Bandwidth\n·        cPanel Control Panel\n·        Unlimited Domains\n·        Unlimited Parked Domains\n·        Unlimited Subdomains\n·        Unlimited FTP Accounts\n·        Unlimited MySQL Databases\n·        Softaculous Auto Installer\n·        LiteSpeed Web Server\n·        CloudLinux System\n·        DDoS Protection\n·        Hosted In Germany \nOnly $125/Year | Order Here\n  █ HostNinjah - Singapore Premium Hosting\n█ RELIABLE & AFFORDABLE // 99.9% UPTIME!\nW: https://hostninjah.com | E: hello@hostninjah.com\n </div>'\nActual value: value=\"\"\nScreenshot: file:/home/j/IdeaProjects/Hostegram/build/reports/tests/1642185470374.0.png\nPage source: file:/home/j/IdeaProjects/Hostegram/build/reports/tests/1642185470374.0.html\nTimeout: 4 s.",
+      "time" : {
+        "start" : 1642185459131,
+        "stop" : 1642185470836,
+        "duration" : 11705
+      }
+    } ]
+  },
+  "e74ff848dcbcd765bdf89b98a3a26064" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1181525ff368abc1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642796713814,
+        "stop" : 1642796715186,
+        "duration" : 1372
+      }
+    } ]
+  },
+  "b01878370e0a5824dcfaf39dde62dc7a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1a1527eeb44d6567",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642796704446,
+        "stop" : 1642796711719,
+        "duration" : 7273
+      }
+    } ]
+  },
+  "deff23e87541f163108daa321f8914cc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "58b0444d5b192e9f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642796711902,
+        "stop" : 1642796713806,
+        "duration" : 1904
+      }
+    } ]
+  },
+  "12116168dc6473486de234badf7eca0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3798f23925e9e64e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642194415756,
+        "stop" : 1642194423462,
+        "duration" : 7706
+      }
+    } ]
+  },
+  "15dda8021464afcdab6e0d399e044d25" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "52b1839f221c3e40",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642170240315,
+        "stop" : 1642170247163,
+        "duration" : 6848
+      }
+    } ]
+  },
+  "35ffbcfb097ef0be1afd6e25236af5a5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "69e6f8ccf0711eb3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642191431536,
+        "stop" : 1642191454631,
+        "duration" : 23095
+      }
+    } ]
+  }
+}

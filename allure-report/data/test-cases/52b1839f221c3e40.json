@@ -1,0 +1,252 @@
+{
+  "uid" : "52b1839f221c3e40",
+  "name" : "HostingOffer()",
+  "fullName" : "tests.HostegramWithListener.HostingOffer",
+  "historyId" : "15dda8021464afcdab6e0d399e044d25",
+  "time" : {
+    "start" : 1642170240315,
+    "stop" : 1642170247163,
+    "duration" : 6848
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"open\") https://hostegram.com/",
+      "time" : {
+        "start" : 1642170240404,
+        "stop" : 1642170246160,
+        "duration" : 5756
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\".item-tag2\") click()",
+      "time" : {
+        "start" : 1642170246407,
+        "stop" : 1642170246682,
+        "duration" : 275
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"by text: Chinese New Year Sale By HostNinjah\") click()",
+      "time" : {
+        "start" : 1642170246687,
+        "stop" : 1642170247078,
+        "duration" : 391
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "ubuntu"
+  }, {
+    "name" : "thread",
+    "value" : "30647@ubuntu.Test worker(11)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "tests.HostegramWithListener"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.HostegramWithListener"
+  }, {
+    "name" : "testMethod",
+    "value" : "HostingOffer"
+  }, {
+    "name" : "suite",
+    "value" : "tests.HostegramWithListener"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "69f66d361b1e9dee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642170177366,
+        "stop" : 1642170184058,
+        "duration" : 6692
+      }
+    }, {
+      "uid" : "fd382fdb605cf92f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642169811430,
+        "stop" : 1642169817427,
+        "duration" : 5997
+      }
+    }, {
+      "uid" : "161b61413c4bf075",
+      "status" : "broken",
+      "statusDetails" : "invalid selector: An invalid or illegal selector was specified\n  (Session info: chrome=97.0.4692.71)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception\nBuild info: version: '4.0.0', revision: '3a21814679'\nSystem info: host: 'ubuntu', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-46-generic', java.version: '11.0.13'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [3e27783e397f4cfaa4b299394af08ae6, findChildElement {id=8853ac11-7241-4b9f-b754-84b1c60c36aa, using=css selector, value=[data-id=19]}]\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: /tmp/.com.google.Chrome.Z1pB2G}, goog:chromeOptions: {debuggerAddress: localhost:40197}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:40197/devtoo..., se:cdpVersion: 97.0.4692.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 3e27783e397f4cfaa4b299394af08ae6",
+      "time" : {
+        "start" : 1642169725213,
+        "stop" : 1642169733149,
+        "duration" : 7936
+      }
+    }, {
+      "uid" : "149acad8c23fe57a",
+      "status" : "broken",
+      "statusDetails" : "invalid selector: An invalid or illegal selector was specified\n  (Session info: chrome=97.0.4692.71)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception\nBuild info: version: '4.0.0', revision: '3a21814679'\nSystem info: host: 'ubuntu', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-46-generic', java.version: '11.0.13'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [1eec08f8c7871ce2f0f6ab0df4fe0d39, findChildElement {id=98a48266-c9d7-4ec5-9d09-13580b711ec1, using=css selector, value=[data-id=19]}]\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: /tmp/.com.google.Chrome.6GdSAj}, goog:chromeOptions: {debuggerAddress: localhost:36391}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:36391/devtoo..., se:cdpVersion: 97.0.4692.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 1eec08f8c7871ce2f0f6ab0df4fe0d39",
+      "time" : {
+        "start" : 1642169656334,
+        "stop" : 1642169662664,
+        "duration" : 6330
+      }
+    }, {
+      "uid" : "5193459c1f06673e",
+      "status" : "broken",
+      "statusDetails" : "invalid selector: An invalid or illegal selector was specified\n  (Session info: chrome=97.0.4692.71)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception\nBuild info: version: '4.0.0', revision: '3a21814679'\nSystem info: host: 'ubuntu', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-46-generic', java.version: '11.0.13'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [2292c16ecc559607cba9abfa981e369e, findElement {using=css selector, value=[data-id=19]}]\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: /tmp/.com.google.Chrome.XOzYEG}, goog:chromeOptions: {debuggerAddress: localhost:42059}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:42059/devtoo..., se:cdpVersion: 97.0.4692.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 2292c16ecc559607cba9abfa981e369e",
+      "time" : {
+        "start" : 1642169489714,
+        "stop" : 1642169497290,
+        "duration" : 7576
+      }
+    }, {
+      "uid" : "97ca2b6629c106b6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642168826542,
+        "stop" : 1642168833000,
+        "duration" : 6458
+      }
+    }, {
+      "uid" : "e906b255661fac89",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642168809490,
+        "stop" : 1642168815194,
+        "duration" : 5704
+      }
+    }, {
+      "uid" : "60ee554c43259d27",
+      "status" : "broken",
+      "statusDetails" : "invalid selector: An invalid or illegal selector was specified\n  (Session info: chrome=97.0.4692.71)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception\nBuild info: version: '4.0.0', revision: '3a21814679'\nSystem info: host: 'ubuntu', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-46-generic', java.version: '11.0.13'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [b745c538c2110113ea0c9ae2fbc93c2c, findElement {using=css selector, value=[data-id=19]}]\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: /tmp/.com.google.Chrome.NADhzs}, goog:chromeOptions: {debuggerAddress: localhost:38457}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:38457/devtoo..., se:cdpVersion: 97.0.4692.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: b745c538c2110113ea0c9ae2fbc93c2c",
+      "time" : {
+        "start" : 1642168398039,
+        "stop" : 1642168404191,
+        "duration" : 6152
+      }
+    }, {
+      "uid" : "bdaac4c478c836d8",
+      "status" : "broken",
+      "statusDetails" : "invalid selector: An invalid or illegal selector was specified\n  (Session info: chrome=97.0.4692.71)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception\nBuild info: version: '4.0.0', revision: '3a21814679'\nSystem info: host: 'ubuntu', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-46-generic', java.version: '11.0.13'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [2ec9dbc1be33c0dd409222bdb007d8be, findElement {using=css selector, value= li data-id=19}]\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: /tmp/.com.google.Chrome.BxrOAe}, goog:chromeOptions: {debuggerAddress: localhost:43369}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:43369/devtoo..., se:cdpVersion: 97.0.4692.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 2ec9dbc1be33c0dd409222bdb007d8be",
+      "time" : {
+        "start" : 1642168308681,
+        "stop" : 1642168314957,
+        "duration" : 6276
+      }
+    }, {
+      "uid" : "45a2cf8008a3b9b6",
+      "status" : "broken",
+      "statusDetails" : "invalid selector: An invalid or illegal selector was specified\n  (Session info: chrome=97.0.4692.71)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception\nBuild info: version: '4.0.0', revision: '3a21814679'\nSystem info: host: 'ubuntu', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-46-generic', java.version: '11.0.13'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [4feccf195759127507a533e7b6a4d23b, findElement {using=css selector, value=.DiscussionList ul li [data-id=19]}]\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: /tmp/.com.google.Chrome.BOxKk5}, goog:chromeOptions: {debuggerAddress: localhost:40901}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:40901/devtoo..., se:cdpVersion: 97.0.4692.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 4feccf195759127507a533e7b6a4d23b",
+      "time" : {
+        "start" : 1642168238135,
+        "stop" : 1642168244162,
+        "duration" : 6027
+      }
+    }, {
+      "uid" : "42f32d72dfe23eb5",
+      "status" : "failed",
+      "statusDetails" : "Element should have text \"Chinese New Year Sale By HostNinjah\" {ul li}\nElement: '<li class=\"item-search\" type value=\"0\"></li>'\nActual value: text=\"\"\nScreenshot: file:/home/j/IdeaProjects/Hostegram/build/reports/tests/1642167490919.0.png\nPage source: file:/home/j/IdeaProjects/Hostegram/build/reports/tests/1642167490919.0.html\nTimeout: 4 s.",
+      "time" : {
+        "start" : 1642167480499,
+        "stop" : 1642167491375,
+        "duration" : 10876
+      }
+    }, {
+      "uid" : "7f295d3eb732b2df",
+      "status" : "broken",
+      "statusDetails" : "invalid selector: An invalid or illegal selector was specified\n  (Session info: chrome=97.0.4692.71)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception\nBuild info: version: '4.0.0', revision: '3a21814679'\nSystem info: host: 'ubuntu', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-46-generic', java.version: '11.0.13'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [e8c59f67e1f86b4e3a4ebe743fcb4955, findElement {using=css selector, value=ul li [data-id=19]}]\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: /tmp/.com.google.Chrome.dczJXu}, goog:chromeOptions: {debuggerAddress: localhost:42829}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:42829/devtoo..., se:cdpVersion: 97.0.4692.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: e8c59f67e1f86b4e3a4ebe743fcb4955",
+      "time" : {
+        "start" : 1642167174582,
+        "stop" : 1642167180722,
+        "duration" : 6140
+      }
+    }, {
+      "uid" : "d4f1b6b72b36547b",
+      "status" : "broken",
+      "statusDetails" : "invalid selector: An invalid or illegal selector was specified\n  (Session info: chrome=97.0.4692.71)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception\nBuild info: version: '4.0.0', revision: '3a21814679'\nSystem info: host: 'ubuntu', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-46-generic', java.version: '11.0.13'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [21be6c09c46032d276f5f7304d979f3d, findElement {using=css selector, value=[data-id=19]}]\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: /tmp/.com.google.Chrome.sYvK0l}, goog:chromeOptions: {debuggerAddress: localhost:38513}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:38513/devtoo..., se:cdpVersion: 97.0.4692.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 21be6c09c46032d276f5f7304d979f3d",
+      "time" : {
+        "start" : 1642167024916,
+        "stop" : 1642167031064,
+        "duration" : 6148
+      }
+    }, {
+      "uid" : "46980aea78e2f5b0",
+      "status" : "broken",
+      "statusDetails" : "invalid selector: An invalid or illegal selector was specified\n  (Session info: chrome=97.0.4692.71)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception\nBuild info: version: '4.0.0', revision: '3a21814679'\nSystem info: host: 'ubuntu', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-46-generic', java.version: '11.0.13'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [9c221fd73395291d024b06552dd5bd84, findElement {using=css selector, value=#19}]\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: /tmp/.com.google.Chrome.R6qnxR}, goog:chromeOptions: {debuggerAddress: localhost:33489}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:33489/devtoo..., se:cdpVersion: 97.0.4692.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 9c221fd73395291d024b06552dd5bd84",
+      "time" : {
+        "start" : 1642166716563,
+        "stop" : 1642166722966,
+        "duration" : 6403
+      }
+    }, {
+      "uid" : "f966685cb0b48aa9",
+      "status" : "broken",
+      "statusDetails" : "invalid selector: An invalid or illegal selector was specified\n  (Session info: chrome=97.0.4692.71)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception\nBuild info: version: '4.0.0', revision: '3a21814679'\nSystem info: host: 'ubuntu', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-46-generic', java.version: '11.0.13'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [24eb45dc624afac430d3d2a12bddfc4e, findElement {using=css selector, value=.19}]\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: /tmp/.com.google.Chrome.q9XdC2}, goog:chromeOptions: {debuggerAddress: localhost:46385}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:46385/devtoo..., se:cdpVersion: 97.0.4692.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 24eb45dc624afac430d3d2a12bddfc4e",
+      "time" : {
+        "start" : 1642166651323,
+        "stop" : 1642166657541,
+        "duration" : 6218
+      }
+    }, {
+      "uid" : "948c861ee04972f3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642166433408,
+        "stop" : 1642166445147,
+        "duration" : 11739
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "52b1839f221c3e40.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Element should have value=\"https://clients.hostninjah.com/order.php?step=2&product=1&paymentTerm=12\" {.Post-body}\nElement: '<div class=\"Post-body\">HostNinjah is a small web hosting company founded on August 2020. Our vision for HostNinjah is to provide affordable yet reliable web hosting for Singaporeans. Although the branding \"HostNinjah\" is new, rest assured that the owner running the company is experienced in the web hosting industry. We start out small and grow together!\nThis is a special one off discount valid only until 31 January 2022. Use the code CNY22 to get an awesome 50% recurring discount (valid for annual payment only) on our shared hosting packages! Hurry Stocks are limited!\n  BASIC PLAN\n·        1 GB SSD Storage\n·        100 GB Bandwidth\n·        DirectAdmin Control Panel\n·        Unlimited Domains\n·        Unlimited Parked Domains\n·        Unlimited Subdomains\n·        Unlimited FTP Accounts\n·        Unlimited MySQL Databases\n·        Installatron & RVSitebuilder\n·        LiteSpeed Web Server\n·        CloudLinux System\n·        DDoS Protection\n·        Hosted In Singapore \nOnly $12/Year | Order Here\n  PREMIUM PLAN\n·        10 GB SSD Storage\n·        500 GB Bandwidth\n·        DirectAdmin Control Panel\n·        Unlimited Domains\n·        Unlimited Parked Domains\n·        Unlimited Subdomains\n·        Unlimited FTP Accounts\n·        Unlimited MySQL Databases\n·        Installatron & RVSitebuilder\n·        LiteSpeed Web Server\n·        CloudLinux System\n·        DDoS Protection\n·        Hosted In Singapore \nOnly $25/Year | Order Here\n  DEVELOPER PLAN\n·        50 GB SSD Storage\n·        UNMETERED Bandwidth\n·        cPanel Control Panel\n·        Unlimited Domains\n·        Unlimited Parked Domains\n·        Unlimited Subdomains\n·        Unlimited FTP Accounts\n·        Unlimited MySQL Databases\n·        Softaculous Auto Installer\n·        LiteSpeed Web Server\n·        CloudLinux System\n·        DDoS Protection\n·        Hosted In Germany \nOnly $125/Year | Order Here\n  █ HostNinjah - Singapore Premium Hosting\n█ RELIABLE & AFFORDABLE // 99.9% UPTIME!\nW: https://hostninjah.com | E: hello@hostninjah.com\n </div>'\nActual value: value=\"\"\nScreenshot: file:/home/j/IdeaProjects/Hostegram/build/reports/tests/1642185470374.0.png\nPage source: file:/home/j/IdeaProjects/Hostegram/build/reports/tests/1642185470374.0.html\nTimeout: 4 s.",
+      "children" : [ {
+        "name" : "HostingNinjahOffer()",
+        "uid" : "92a5d85749732151",
+        "parentUid" : "bb69e7e601e1701d5a2458a26ac89f0f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1642185459131,
+          "stop" : 1642185470836,
+          "duration" : 11705
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bb69e7e601e1701d5a2458a26ac89f0f"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}

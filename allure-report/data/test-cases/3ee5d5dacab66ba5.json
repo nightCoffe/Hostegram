@@ -1,0 +1,126 @@
+{
+  "uid" : "3ee5d5dacab66ba5",
+  "name" : "ExpertVMVPOffer()",
+  "fullName" : "tests.content.ExpertVMVPSTest.ExpertVMVPOffer",
+  "historyId" : "b01878370e0a5824dcfaf39dde62dc7a",
+  "time" : {
+    "start" : 1642795751049,
+    "stop" : 1642795761892,
+    "duration" : 10843
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Открываем главную страницу",
+      "time" : {
+        "start" : 1642795751074,
+        "stop" : 1642795757346,
+        "duration" : 6272
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Переходим в раздел VPS",
+      "time" : {
+        "start" : 1642795757347,
+        "stop" : 1642795760709,
+        "duration" : 3362
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Переходим в предложение ExpertVM",
+      "time" : {
+        "start" : 1642795760710,
+        "stop" : 1642795761338,
+        "duration" : 628
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Проверяем наличие тарифных планов",
+      "time" : {
+        "start" : 1642795761338,
+        "stop" : 1642795761883,
+        "duration" : 545
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "ubuntu"
+  }, {
+    "name" : "thread",
+    "value" : "6207@ubuntu.Test worker(11)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "tests.content.ExpertVMVPSTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.content.ExpertVMVPSTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "ExpertVMVPOffer"
+  }, {
+    "name" : "suite",
+    "value" : "tests.content.ExpertVMVPSTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3ee5d5dacab66ba5.json",
+  "parameterValues" : [ ]
+}

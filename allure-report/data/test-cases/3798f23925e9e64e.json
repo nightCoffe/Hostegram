@@ -1,0 +1,145 @@
+{
+  "uid" : "3798f23925e9e64e",
+  "name" : "PorkbunOffer()",
+  "fullName" : "tests.PorkbunDomainsTest.PorkbunOffer",
+  "historyId" : "12116168dc6473486de234badf7eca0",
+  "time" : {
+    "start" : 1642194415756,
+    "stop" : 1642194423462,
+    "duration" : 7706
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Открываем главную страницу",
+      "time" : {
+        "start" : 1642194415777,
+        "stop" : 1642194421119,
+        "duration" : 5342
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Переходим в раздел Domains",
+      "time" : {
+        "start" : 1642194421119,
+        "stop" : 1642194421348,
+        "duration" : 229
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Переходим в предложение Porkbun",
+      "time" : {
+        "start" : 1642194421348,
+        "stop" : 1642194421791,
+        "duration" : 443
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Проверяем наличие предложений",
+      "time" : {
+        "start" : 1642194421792,
+        "stop" : 1642194423450,
+        "duration" : 1658
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "ubuntu"
+  }, {
+    "name" : "thread",
+    "value" : "39324@ubuntu.Test worker(11)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "tests.PorkbunDomainsTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.PorkbunDomainsTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "PorkbunOffer"
+  }, {
+    "name" : "suite",
+    "value" : "tests.PorkbunDomainsTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6b150ad21d6475aa",
+      "status" : "failed",
+      "statusDetails" : "Element not found {[data-id='6']}\nExpected: visible or transparent: visible or have css value opacity=0\nScreenshot: file:/home/j/IdeaProjects/Hostegram/build/reports/tests/1642194252822.0.png\nPage source: file:/home/j/IdeaProjects/Hostegram/build/reports/tests/1642194252822.0.html\nTimeout: 4 s.\nCaused by: NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"[data-id='6']\"}",
+      "time" : {
+        "start" : 1642194241867,
+        "stop" : 1642194253186,
+        "duration" : 11319
+      }
+    }, {
+      "uid" : "46f45821a371efc4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642193592912,
+        "stop" : 1642193600720,
+        "duration" : 7808
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3798f23925e9e64e.json",
+  "parameterValues" : [ ]
+}
