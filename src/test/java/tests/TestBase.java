@@ -20,8 +20,8 @@ public class TestBase {
     @BeforeAll
     static void setup() {
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
-        Configuration.browser = RemoteDriver.class.getName();
         Configuration.startMaximized = true;
+        Configuration.browser = RemoteDriver.class.getName();
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("enableVNC", true);
