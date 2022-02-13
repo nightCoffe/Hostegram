@@ -21,9 +21,9 @@ public class TestBase {
     @BeforeAll
     static void setup() {
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
-        Configuration.startMaximized = true;
         Configuration.remote = format("https://%s:%s@%s", userRemoteConfig.remoteLogin(), userRemoteConfig.remotePassword(),
                 System.getProperty("remoteBrowser"));
+        Configuration.startMaximized = true;
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("enableVNC", true);

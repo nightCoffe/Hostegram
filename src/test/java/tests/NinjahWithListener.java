@@ -10,7 +10,6 @@ import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.$;
 
 public class NinjahWithListener extends TestBase {
-    String basicPlan = "https://clients.hostninjah.com/order.php?step=2&product=1&paymentTerm=12";
 
     @Test
     @Owner("nightCoffe")

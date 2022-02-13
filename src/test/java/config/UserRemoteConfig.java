@@ -10,4 +10,7 @@ public interface UserRemoteConfig extends Config {
 
     @Key("remotePassword")
     String remotePassword();
+
+    @Key("remoteBrowser")
+    String remoteBrowser();
 }
