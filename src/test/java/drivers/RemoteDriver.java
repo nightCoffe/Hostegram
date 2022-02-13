@@ -10,7 +10,7 @@ import java.net.URL;
 
 import static config.AppRemote.userRemoteConfig;
 
-/*public class RemoteDriver implements WebDriverProvider {
+public class RemoteDriver implements WebDriverProvider {
     public static URL getRemoteUrl() {
         try {
             return new URL(
@@ -28,4 +28,4 @@ import static config.AppRemote.userRemoteConfig;
     }
 }
 
- */
+
