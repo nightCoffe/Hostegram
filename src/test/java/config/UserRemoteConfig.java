@@ -1,7 +1,7 @@
 package config;
 
 import org.aeonbits.owner.Config;
-
+/*
 @Config.Sources({"classpath:userRemote.properties"})
 public interface UserRemoteConfig extends Config {
 
@@ -11,6 +11,7 @@ public interface UserRemoteConfig extends Config {
     @Key("remotePassword")
     String remotePassword();
 
-    @Key("remoteBrowser")
-    String remoteBrowser();
 }
+
+
+ */

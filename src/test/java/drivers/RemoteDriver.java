@@ -7,7 +7,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import javax.annotation.Nonnull;
 import java.net.MalformedURLException;
 import java.net.URL;
-
+/*
 import static config.AppRemote.userRemoteConfig;
 
 public class RemoteDriver implements WebDriverProvider {
@@ -28,4 +28,6 @@ public class RemoteDriver implements WebDriverProvider {
     }
 }
 
+
+ */
 

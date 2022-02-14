@@ -11,8 +11,8 @@ import static com.codeborne.selenide.Selenide.$;
 import static io.qameta.allure.Allure.step;
 
 public class ExpertVMVPSTest extends TestBase {
-    @Test
     @Disabled
+    @Test
     @Owner("nightCoffe")
     @Feature("Offer")
     @Story("ExpertVMVPOffer")
