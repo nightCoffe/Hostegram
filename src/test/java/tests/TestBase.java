@@ -22,8 +22,8 @@ public class TestBase {
         open("https://hostegram.com/");
     }
 
-//    public static CredentialsConfig credentials =
-//            ConfigFactory.create(CredentialsConfig.class);
+    public static CredentialsConfig credentials =
+            ConfigFactory.create(CredentialsConfig.class);
 
     public static WebConfig webConfig = ConfigFactory.create(WebConfig.class, System.getProperties());
 
@@ -44,7 +44,9 @@ public class TestBase {
         if (!Objects.isNull(System.getProperty("environment")) && System.getProperty("environment").equals("selenoid")) {
             capabilities.setCapability("enableVNC", true);
             capabilities.setCapability("enableVideo", true);
-            Configuration.remote = webConfig.remoteDriverUrl();
+//            Configuration.remote = webConfig.remoteDriverUrl();
+            Configuration.remote = format("https://%s:%s@%s", credentials.login(), credentials.password(),
+                System.getProperty("remoteBrowser"));
         }
     }
 
