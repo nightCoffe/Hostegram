@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import java.util.function.Supplier;
-
+/*
 public class SelectWebDriver implements Supplier<WebDriver> {
 
     private WebConfig config;
@@ -24,12 +24,15 @@ public class SelectWebDriver implements Supplier<WebDriver> {
     }
 
     private WebDriver createWebDriver() {
-        if (config.getBrowser().equals(Browser.FIREFOX)) {
+        if (config.browser().equals(Browser.FIREFOX)) {
             return new FirefoxDriver();
         }
-        if (config.getBrowser().equals(Browser.CHROME)) {
+        if (config.browser().equals(Browser.CHROME)) {
             return new ChromeDriver();
         }
         throw new NullPointerException("No such browser");
     }
 }
+
+
+ */

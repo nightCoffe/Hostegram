@@ -7,16 +7,22 @@ public interface WebConfig extends Config {
 
     @Key("browser")
     @DefaultValue("CHROME")
-    String getBrowser();
+    String browser();
 
     @Key("browserVersion")
-    @DefaultValue("95.0")
-    String getBrowserVersion();
+    @DefaultValue("96.0")
+    String browserVersion();
 
+    @Key("browserSize")
+    @DefaultValue("1920x1080")
+    String browserSize();
+/*
     @Key("baseUrl")
     @DefaultValue("https://hostegram.com/")
     String getBaseUrl();
 
-    @Key("remoteDriver")
-    String getRemoteDriver();
+ */
+
+    @Key("remoteDriverUrl")
+    String remoteDriverUrl();
 }
