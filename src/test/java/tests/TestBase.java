@@ -40,6 +40,7 @@ public class TestBase {
         capabilities.setCapability("enableVideo", true);
         Configuration.remote = format("https://%s:%s@%s", credentials.login(), credentials.password(),
                 System.getProperty("remoteBrowser"));
+        Configuration.timeout = 10000;
     }
 
     @AfterEach
