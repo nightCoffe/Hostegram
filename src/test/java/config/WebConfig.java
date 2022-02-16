@@ -16,12 +16,6 @@ public interface WebConfig extends Config {
     @Key("browserSize")
     @DefaultValue("1920x1080")
     String browserSize();
-/*
-    @Key("baseUrl")
-    @DefaultValue("https://hostegram.com/")
-    String getBaseUrl();
-
- */
 
     @Key("remoteDriverUrl")
     String remoteDriverUrl();
