@@ -41,13 +41,13 @@ public class TestBase {
         Configuration.browserVersion = webConfig.browserVersion();
         Configuration.browserSize = webConfig.browserSize();
 
-        if (!Objects.isNull(System.getProperty("environment")) && System.getProperty("environment").equals("selenoid")) {
+//        if (!Objects.isNull(System.getProperty("environment")) && System.getProperty("environment").equals("selenoid"))
             capabilities.setCapability("enableVNC", true);
             capabilities.setCapability("enableVideo", true);
 //            Configuration.remote = webConfig.remoteDriverUrl();
             Configuration.remote = format("https://%s:%s@%s", credentials.login(), credentials.password(),
                 System.getProperty("remoteBrowser"));
-        }
+
     }
 
     @AfterEach
