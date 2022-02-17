@@ -30,17 +30,19 @@ public class TestBase {
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
+        Configuration.browserCapabilities = capabilities;
 
-        Configuration.remote = format("https://%s:%s@%s", credentials.login(), credentials.password(),
-                System.getProperty("remoteBrowserUrl"));
         Configuration.browser = webConfig.browser();
         Configuration.browserVersion = webConfig.browserVersion();
         Configuration.browserSize = webConfig.browserSize();
+        Configuration.remote = format("https://%s:%s@%s", credentials.login(), credentials.password(),
+                System.getProperty("remoteBrowserUrl"));
+        Configuration.timeout = 10000;
 
         capabilities.setCapability("enableVNC", true);
         capabilities.setCapability("enableVideo", true);
-        Configuration.browserCapabilities = capabilities;
-        Configuration.timeout = 10000;
+
+
     }
 
     @AfterEach
