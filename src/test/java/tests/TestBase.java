@@ -11,8 +11,6 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
-import java.util.Objects;
-
 import static com.codeborne.selenide.Selenide.open;
 import static java.lang.String.format;
 
@@ -34,15 +32,13 @@ public class TestBase {
         Configuration.browser = webConfig.browser();
         Configuration.browserVersion = webConfig.browserVersion();
         Configuration.browserSize = webConfig.browserSize();
-        if (!Objects.isNull(System.getProperty("environment")) && System.getProperty("environment").equals("credentials")) {
-            Configuration.remote = format("https://%s:%s@%s", credentials.login(), credentials.password(),
-                    System.getProperty("remoteBrowser"));
-            Configuration.timeout = 10000;
-            DesiredCapabilities capabilities = new DesiredCapabilities();
-            capabilities.setCapability("enableVNC", true);
-            capabilities.setCapability("enableVideo", true);
-            Configuration.browserCapabilities = capabilities;
-        }
+        Configuration.remote = format("https://%s:%s@%s", credentials.login(), credentials.password(),
+                System.getProperty("remoteBrowser"));
+        Configuration.timeout = 10000;
+        DesiredCapabilities capabilities = new DesiredCapabilities();
+        capabilities.setCapability("enableVNC", true);
+        capabilities.setCapability("enableVideo", true);
+        Configuration.browserCapabilities = capabilities;
     }
 
     @AfterEach
