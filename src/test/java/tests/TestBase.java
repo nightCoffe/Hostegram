@@ -36,11 +36,11 @@ public class TestBase {
         Configuration.browser = webConfig.browser();
         Configuration.browserVersion = webConfig.browserVersion();
         Configuration.browserSize = webConfig.browserSize();
-
+        Configuration.timeout = 10000;
         capabilities.setCapability("enableVNC", true);
         capabilities.setCapability("enableVideo", true);
 
-        Configuration.timeout = 10000;
+
     }
 
     @AfterEach
