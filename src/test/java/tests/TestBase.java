@@ -31,16 +31,16 @@ public class TestBase {
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
         Configuration.browserCapabilities = capabilities;
-
+        Configuration.remote = format("https://%s:%s@%s", credentials.login(), credentials.password(),
+                System.getProperty("remoteBrowser"));
         Configuration.browser = webConfig.browser();
         Configuration.browserVersion = webConfig.browserVersion();
         Configuration.browserSize = webConfig.browserSize();
-        Configuration.remote = format("https://%s:%s@%s", credentials.login(), credentials.password(),
-                System.getProperty("remoteBrowser"));
-        Configuration.timeout = 10000;
 
         capabilities.setCapability("enableVNC", true);
         capabilities.setCapability("enableVideo", true);
+
+        Configuration.timeout = 10000;
     }
 
     @AfterEach
