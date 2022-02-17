@@ -14,9 +14,9 @@ public class TerrahostTest extends TestBase {
     @Test
     @Owner("nightCoffe")
     @Feature("Offer")
-    @Story("PorkbunOffer")
+    @Story("TerrahostOffer")
     @Severity(SeverityLevel.CRITICAL)
-    @DisplayName("Оффер от Porkbun")
+    @DisplayName("Оффер от Terrahost")
     void ExpertVMVPOffer() {
         step("Открываем главную страницу", () -> {
             openUrl();
