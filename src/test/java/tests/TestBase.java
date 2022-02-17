@@ -41,8 +41,6 @@ public class TestBase {
 
         capabilities.setCapability("enableVNC", true);
         capabilities.setCapability("enableVideo", true);
-
-
     }
 
     @AfterEach

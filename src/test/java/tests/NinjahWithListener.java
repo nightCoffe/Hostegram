@@ -7,6 +7,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Condition.text;
+import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.$;
 
 public class NinjahWithListener extends TestBase {
@@ -22,7 +23,7 @@ public class NinjahWithListener extends TestBase {
         openUrl();
         $(".item-tag2").click();
         $("[data-id='19']").click();
-        $(".Post-body").shouldHave(text("BASIC PLAN"),
+        $(".Post-body").shouldBe(visible).shouldHave(text("BASIC PLAN"),
                 text("PREMIUM PLAN"),
                 text("DEVELOPER PLAN")
         );
