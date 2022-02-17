@@ -33,7 +33,7 @@ public class TestBase {
         Configuration.browserVersion = webConfig.browserVersion();
         Configuration.browserSize = webConfig.browserSize();
         Configuration.remote = format("https://%s:%s@%s", credentials.login(), credentials.password(),
-                System.getProperty("remoteBrowser"));
+                System.getProperty(credentials.remoteBrowser()));
         Configuration.timeout = 10000;
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("enableVNC", true);
