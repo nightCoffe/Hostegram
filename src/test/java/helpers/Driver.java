@@ -13,7 +13,7 @@ public class Driver {
         String selenoidUrl = credentials.URL();
         String login = credentials.login();
         String password = credentials.password();
-        Configuration.remote = format("https://%s:%s@" + selenoidUrl, login, password);
+        Configuration.remote = format("https://%s:%s@" + login, password, selenoidUrl);
         Configuration.browser = AppConfig.config.browser();
         Configuration.browserVersion = AppConfig.config.browserVersion();
         Configuration.browserSize = AppConfig.config.browserSize();
