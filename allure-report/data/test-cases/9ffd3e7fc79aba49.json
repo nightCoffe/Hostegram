@@ -1,0 +1,128 @@
+{
+  "uid" : "9ffd3e7fc79aba49",
+  "name" : "testNinjahOffer()",
+  "fullName" : "tests.NinjahStepsTest.testNinjahOffer",
+  "historyId" : "52921801bea24fcbf7af4092f1c46ff3",
+  "time" : {
+    "start" : 1642188142812,
+    "stop" : 1642188150413,
+    "duration" : 7601
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Открываем главную страницу",
+      "time" : {
+        "start" : 1642188142858,
+        "stop" : 1642188148808,
+        "duration" : 5950
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Переходим в раздел Hosting",
+      "time" : {
+        "start" : 1642188148808,
+        "stop" : 1642188149065,
+        "duration" : 257
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Переходим в предложение {offer}",
+      "time" : {
+        "start" : 1642188149066,
+        "stop" : 1642188149687,
+        "duration" : 621
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Проверяем наличие тарифных планов",
+      "time" : {
+        "start" : 1642188149687,
+        "stop" : 1642188150406,
+        "duration" : 719
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "ubuntu"
+  }, {
+    "name" : "thread",
+    "value" : "37241@ubuntu.Test worker(11)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "tests.NinjahStepsTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.NinjahStepsTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testNinjahOffer"
+  }, {
+    "name" : "suite",
+    "value" : "tests.NinjahStepsTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9ffd3e7fc79aba49.json",
+  "parameterValues" : [ ]
+}

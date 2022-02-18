@@ -1,0 +1,96 @@
+{
+  "uid" : "7cbadd7364acbf64",
+  "name" : "ExpertVMVPOffer()",
+  "fullName" : "tests.ExpertVMVPSTest.ExpertVMVPOffer",
+  "historyId" : "35ffbcfb097ef0be1afd6e25236af5a5",
+  "time" : {
+    "start" : 1642190500591,
+    "stop" : 1642190507185,
+    "duration" : 6594
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Открываем главную страницу",
+      "time" : {
+        "start" : 1642190500609,
+        "stop" : 1642190506789,
+        "duration" : 6180
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Переходим в раздел VPS",
+      "time" : {
+        "start" : 1642190506790,
+        "stop" : 1642190507158,
+        "duration" : 368
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "ubuntu"
+  }, {
+    "name" : "thread",
+    "value" : "37904@ubuntu.Test worker(11)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "tests.ExpertVMVPSTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.ExpertVMVPSTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "ExpertVMVPOffer"
+  }, {
+    "name" : "suite",
+    "value" : "tests.ExpertVMVPSTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7cbadd7364acbf64.json",
+  "parameterValues" : [ ]
+}

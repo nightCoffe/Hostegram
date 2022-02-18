@@ -1,0 +1,111 @@
+{
+  "uid" : "97ca2b6629c106b6",
+  "name" : "HostingOffer()",
+  "fullName" : "tests.HostegramWithListener.HostingOffer",
+  "historyId" : "15dda8021464afcdab6e0d399e044d25",
+  "time" : {
+    "start" : 1642168826542,
+    "stop" : 1642168833000,
+    "duration" : 6458
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"open\") https://hostegram.com/",
+      "time" : {
+        "start" : 1642168826660,
+        "stop" : 1642168832241,
+        "duration" : 5581
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\".item-tag2\") click()",
+      "time" : {
+        "start" : 1642168832305,
+        "stop" : 1642168832526,
+        "duration" : 221
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"by text: Chinese New Year Sale By HostNinjah\") click()",
+      "time" : {
+        "start" : 1642168832530,
+        "stop" : 1642168832970,
+        "duration" : 440
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "ubuntu"
+  }, {
+    "name" : "thread",
+    "value" : "27772@ubuntu.Test worker(11)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "tests.HostegramWithListener"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.HostegramWithListener"
+  }, {
+    "name" : "testMethod",
+    "value" : "HostingOffer"
+  }, {
+    "name" : "suite",
+    "value" : "tests.HostegramWithListener"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "97ca2b6629c106b6.json",
+  "parameterValues" : [ ]
+}

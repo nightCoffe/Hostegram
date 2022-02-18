@@ -1,0 +1,96 @@
+{
+  "uid" : "e906b255661fac89",
+  "name" : "HostingOffer()",
+  "fullName" : "tests.HostegramWithListener.HostingOffer",
+  "historyId" : "15dda8021464afcdab6e0d399e044d25",
+  "time" : {
+    "start" : 1642168809490,
+    "stop" : 1642168815194,
+    "duration" : 5704
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"open\") https://hostegram.com/",
+      "time" : {
+        "start" : 1642168809597,
+        "stop" : 1642168814927,
+        "duration" : 5330
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\".item-tag2\") click()",
+      "time" : {
+        "start" : 1642168814972,
+        "stop" : 1642168815171,
+        "duration" : 199
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "ubuntu"
+  }, {
+    "name" : "thread",
+    "value" : "27564@ubuntu.Test worker(11)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "tests.HostegramWithListener"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.HostegramWithListener"
+  }, {
+    "name" : "testMethod",
+    "value" : "HostingOffer"
+  }, {
+    "name" : "suite",
+    "value" : "tests.HostegramWithListener"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e906b255661fac89.json",
+  "parameterValues" : [ ]
+}

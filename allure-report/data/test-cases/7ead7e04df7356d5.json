@@ -1,0 +1,126 @@
+{
+  "uid" : "7ead7e04df7356d5",
+  "name" : "PorkbunOffer()",
+  "fullName" : "tests.content.PorkbunDomainsTest.PorkbunOffer",
+  "historyId" : "a08854c6e899e33a5ecfa147188a0ea8",
+  "time" : {
+    "start" : 1642796075670,
+    "stop" : 1642796083055,
+    "duration" : 7385
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Открываем главную страницу",
+      "time" : {
+        "start" : 1642796075695,
+        "stop" : 1642796081031,
+        "duration" : 5336
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Переходим в раздел Domains",
+      "time" : {
+        "start" : 1642796081032,
+        "stop" : 1642796081442,
+        "duration" : 410
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Переходим в предложение Porkbun",
+      "time" : {
+        "start" : 1642796081442,
+        "stop" : 1642796081825,
+        "duration" : 383
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Проверяем наличие предложений",
+      "time" : {
+        "start" : 1642796081826,
+        "stop" : 1642796083047,
+        "duration" : 1221
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "ubuntu"
+  }, {
+    "name" : "thread",
+    "value" : "8295@ubuntu.Test worker(11)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "tests.content.PorkbunDomainsTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.content.PorkbunDomainsTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "PorkbunOffer"
+  }, {
+    "name" : "suite",
+    "value" : "tests.content.PorkbunDomainsTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7ead7e04df7356d5.json",
+  "parameterValues" : [ ]
+}

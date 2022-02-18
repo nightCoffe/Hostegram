@@ -1,0 +1,163 @@
+{
+  "uid" : "58b0444d5b192e9f",
+  "name" : "testNinjahOffer()",
+  "fullName" : "tests.content.NinjahStepsTest.testNinjahOffer",
+  "historyId" : "deff23e87541f163108daa321f8914cc",
+  "time" : {
+    "start" : 1642796711902,
+    "stop" : 1642796713806,
+    "duration" : 1904
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Открываем главную страницу",
+      "time" : {
+        "start" : 1642796711917,
+        "stop" : 1642796712498,
+        "duration" : 581
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Переходим в раздел Hosting",
+      "time" : {
+        "start" : 1642796712499,
+        "stop" : 1642796712682,
+        "duration" : 183
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Переходим в предложение HostNinjah",
+      "time" : {
+        "start" : 1642796712682,
+        "stop" : 1642796713288,
+        "duration" : 606
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Проверяем наличие тарифных планов",
+      "time" : {
+        "start" : 1642796713288,
+        "stop" : 1642796713806,
+        "duration" : 518
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "ubuntu"
+  }, {
+    "name" : "thread",
+    "value" : "9779@ubuntu.Test worker(11)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "tests.content.NinjahStepsTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.content.NinjahStepsTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testNinjahOffer"
+  }, {
+    "name" : "suite",
+    "value" : "tests.content.NinjahStepsTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "34a34ba343486e93",
+      "status" : "failed",
+      "statusDetails" : "Invalid element state: element click intercepted: Element <li data-id=\"19\">...</li> is not clickable at point (668, 587). Other element would receive the click: <div role=\"dialog\" aria-live=\"polite\" aria-label=\"cookieconsent\" aria-describedby=\"cookieconsent:desc\" class=\"cc-window cc-banner cc-type-info cc-theme-#2b2b2b cc-bottom cc-color-override-678040131 \" style=\"\">...</div>\nScreenshot: file:/home/j/IdeaProjects/Hostegram/build/reports/tests/1642796293152.1.png\nPage source: file:/home/j/IdeaProjects/Hostegram/build/reports/tests/1642796293152.1.html\nTimeout: 4 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <li data-id=\"19\">...</li> is not clickable at point (668, 587). Other element would receive the click: <div role=\"dialog\" aria-live=\"polite\" aria-label=\"cookieconsent\" aria-describedby=\"cookieconsent:desc\" class=\"cc-window cc-banner cc-type-info cc-theme-#2b2b2b cc-bottom cc-color-override-678040131 \" style=\"\">...</div>",
+      "time" : {
+        "start" : 1642796288395,
+        "stop" : 1642796293344,
+        "duration" : 4949
+      }
+    }, {
+      "uid" : "6eb2389e5d73c1d7",
+      "status" : "failed",
+      "statusDetails" : "Invalid element state: element click intercepted: Element <li data-id=\"19\">...</li> is not clickable at point (668, 587). Other element would receive the click: <div role=\"dialog\" aria-live=\"polite\" aria-label=\"cookieconsent\" aria-describedby=\"cookieconsent:desc\" class=\"cc-window cc-banner cc-type-info cc-theme-#2b2b2b cc-bottom cc-color-override-678040131 \" style=\"\">...</div>\nScreenshot: file:/home/j/IdeaProjects/Hostegram/build/reports/tests/1642796138706.0.png\nPage source: file:/home/j/IdeaProjects/Hostegram/build/reports/tests/1642796138706.0.html\nTimeout: 4 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <li data-id=\"19\">...</li> is not clickable at point (668, 587). Other element would receive the click: <div role=\"dialog\" aria-live=\"polite\" aria-label=\"cookieconsent\" aria-describedby=\"cookieconsent:desc\" class=\"cc-window cc-banner cc-type-info cc-theme-#2b2b2b cc-bottom cc-color-override-678040131 \" style=\"\">...</div>",
+      "time" : {
+        "start" : 1642796128176,
+        "stop" : 1642796138968,
+        "duration" : 10792
+      }
+    }, {
+      "uid" : "d737d7957fc73031",
+      "status" : "failed",
+      "statusDetails" : "Invalid element state: element click intercepted: Element <li data-id=\"19\">...</li> is not clickable at point (668, 587). Other element would receive the click: <div role=\"dialog\" aria-live=\"polite\" aria-label=\"cookieconsent\" aria-describedby=\"cookieconsent:desc\" class=\"cc-window cc-banner cc-type-info cc-theme-#2b2b2b cc-bottom cc-color-override-678040131 \" style=\"\">...</div>\nScreenshot: file:/home/j/IdeaProjects/Hostegram/build/reports/tests/1642795883622.0.png\nPage source: file:/home/j/IdeaProjects/Hostegram/build/reports/tests/1642795883622.0.html\nTimeout: 4 s.\nCaused by: ElementClickInterceptedException: element click intercepted: Element <li data-id=\"19\">...</li> is not clickable at point (668, 587). Other element would receive the click: <div role=\"dialog\" aria-live=\"polite\" aria-label=\"cookieconsent\" aria-describedby=\"cookieconsent:desc\" class=\"cc-window cc-banner cc-type-info cc-theme-#2b2b2b cc-bottom cc-color-override-678040131 \" style=\"\">...</div>",
+      "time" : {
+        "start" : 1642795874022,
+        "stop" : 1642795884063,
+        "duration" : 10041
+      }
+    }, {
+      "uid" : "a8bd6523aa30f8cf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642795858281,
+        "stop" : 1642795867173,
+        "duration" : 8892
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "58b0444d5b192e9f.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,171 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "tests.HostegramWithListener",
+    "children" : [ {
+      "name" : "HostingOffer()",
+      "uid" : "52b1839f221c3e40",
+      "parentUid" : "046430cc1ae43bea87d7369effa05427",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642170240315,
+        "stop" : 1642170247163,
+        "duration" : 6848
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "HostingNinjahOffer()",
+      "uid" : "92a5d85749732151",
+      "parentUid" : "046430cc1ae43bea87d7369effa05427",
+      "status" : "failed",
+      "time" : {
+        "start" : 1642185459131,
+        "stop" : 1642185470836,
+        "duration" : 11705
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "046430cc1ae43bea87d7369effa05427"
+  }, {
+    "name" : "tests.NinjahWithListener",
+    "children" : [ {
+      "name" : "HostingNinjahOffer()",
+      "uid" : "28aace02512b44b0",
+      "parentUid" : "825e30af993cb725fe5702b2e6a21a82",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642187287101,
+        "stop" : 1642187312961,
+        "duration" : 25860
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "825e30af993cb725fe5702b2e6a21a82"
+  }, {
+    "name" : "tests.NinjahStepsTest",
+    "children" : [ {
+      "name" : "testNinjahOffer()",
+      "uid" : "9ffd3e7fc79aba49",
+      "parentUid" : "c3011210dcaacfb826fbe5182ca91acf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642188142812,
+        "stop" : 1642188150413,
+        "duration" : 7601
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "c3011210dcaacfb826fbe5182ca91acf"
+  }, {
+    "name" : "tests.ExpertVMVPSTest",
+    "children" : [ {
+      "name" : "ExpertVMVPOffer()",
+      "uid" : "69e6f8ccf0711eb3",
+      "parentUid" : "5cb56c034c1bbbaa2be666e94d9eec56",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642191431536,
+        "stop" : 1642191454631,
+        "duration" : 23095
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "5cb56c034c1bbbaa2be666e94d9eec56"
+  }, {
+    "name" : "tests.PorkbunDomainsTest",
+    "children" : [ {
+      "name" : "PorkbunOffer()",
+      "uid" : "3798f23925e9e64e",
+      "parentUid" : "44d1a197fbb6ad9fc22df4eb54d1e2ac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642194415756,
+        "stop" : 1642194423462,
+        "duration" : 7706
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "44d1a197fbb6ad9fc22df4eb54d1e2ac"
+  }, {
+    "name" : "tests.content.ExpertVMVPSTest",
+    "children" : [ {
+      "name" : "ExpertVMVPOffer()",
+      "uid" : "1a1527eeb44d6567",
+      "parentUid" : "a15be018a28e0919c624e74f86ab8efb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642796704446,
+        "stop" : 1642796711719,
+        "duration" : 7273
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a15be018a28e0919c624e74f86ab8efb"
+  }, {
+    "name" : "tests.content.NinjahStepsTest",
+    "children" : [ {
+      "name" : "testNinjahOffer()",
+      "uid" : "58b0444d5b192e9f",
+      "parentUid" : "5b78de57d932383f7a70449a9b9ab155",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642796711902,
+        "stop" : 1642796713806,
+        "duration" : 1904
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "5b78de57d932383f7a70449a9b9ab155"
+  }, {
+    "name" : "tests.content.NinjahWithListener",
+    "children" : [ {
+      "name" : "HostingNinjahOffer()",
+      "uid" : "1181525ff368abc1",
+      "parentUid" : "d4cd8bd3ecadebb2578654a025e9dc82",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642796713814,
+        "stop" : 1642796715186,
+        "duration" : 1372
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "d4cd8bd3ecadebb2578654a025e9dc82"
+  }, {
+    "name" : "tests.content.PorkbunDomainsTest",
+    "children" : [ {
+      "name" : "PorkbunOffer()",
+      "uid" : "da24308dfae88f28",
+      "parentUid" : "e01e71ea0e211886af97eba785cc88ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642796715192,
+        "stop" : 1642796717695,
+        "duration" : 2503
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "e01e71ea0e211886af97eba785cc88ff"
+  } ],
+  "name" : "suites"
+}
