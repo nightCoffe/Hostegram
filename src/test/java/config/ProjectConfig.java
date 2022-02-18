@@ -5,8 +5,8 @@ import org.aeonbits.owner.Config;
 @Config.LoadPolicy(Config.LoadType.MERGE)
 @Config.Sources({
         "system:properties",
-        "classpath:local.properties",
-        "classpath:remote.properties",
+        "classpath:chrome.properties",
+        "classpath:firefox.properties",
         "classpath:credentials.properties"
 })
 
