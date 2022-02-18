@@ -3,8 +3,10 @@ package tests;
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import config.CredentialsConfig;
+import config.ProjectConfig;
 import config.WebConfig;
 import helpers.Attach;
+import helpers.Driver;
 import io.qameta.allure.selenide.AllureSelenide;
 import org.aeonbits.owner.ConfigFactory;
 import org.junit.jupiter.api.AfterEach;
@@ -20,7 +22,20 @@ public class TestBase {
         open("https://hostegram.com/");
     }
 
-    public static CredentialsConfig credentials =
+    public static ProjectConfig credentials =
+            ConfigFactory.create(ProjectConfig.class);
+
+
+    @BeforeAll
+    static void setup() {
+
+        SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
+
+        Driver.configure();
+    }
+
+
+/*    public static CredentialsConfig credentials =
             ConfigFactory.create(CredentialsConfig.class);
 
     public static WebConfig webConfig = ConfigFactory.create(WebConfig.class, System.getProperties());
@@ -40,6 +55,8 @@ public class TestBase {
         capabilities.setCapability("enableVideo", true);
         Configuration.browserCapabilities = capabilities;
     }
+
+ */
 
     @AfterEach
     public void tearDown() {
