@@ -3,7 +3,6 @@ package tests;
 import io.qameta.allure.*;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import tests.TestBase;
 
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Condition.visible;
@@ -29,24 +28,7 @@ public class PorkbunDomainsTest extends TestBase {
         });
         step("Проверяем наличие предложений", () -> {
             $(".Post-body").shouldBe(visible)
-                    .shouldHave(text("The gifts just keep on coming! End the year with a bang (for your buck) and" +
-                            " a few more festive Buns. Check out our current best deals" +
-                            " on regular and premium domains, plus powerful hosting to push" +
-                            " those sites live. Cheers!"))
-                    .shouldHave(text(".shop"))
-                    .shouldHave(text("FIRST YEAR SALE "))
-                    .shouldHave(text(".eu"))
-                    .shouldHave(text(".bar"))
-                    .shouldHave(text(".co"))
-                    .shouldHave(text("SHOP REGULAR DOMAINS "))
-                    .shouldHave(text(".wiki"))
-                    .shouldHave(text(".vegas"))
-                    .shouldHave(text(".blog"))
-                    .shouldHave(text("75% off"))
-                    .shouldHave(text(".buzz"))
-                    .shouldHave(text("20% off"))
-                    .shouldHave(text("SHOP PREMIUM DOMAINS"))
-                    .shouldHave(text("SHOP 75% OFF WORDPRESS HOSTING"));
+                    .shouldHave(text("FIRST YEAR SALE"));
         });
     }
 }
