@@ -2,9 +2,9 @@ package tests;
 
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.logevents.SelenideLogger;
-import config.CredentialsConfig;
+//import config.CredentialsConfig;
 import config.ProjectConfig;
-import config.WebConfig;
+//import config.WebConfig;
 import helpers.Attach;
 import helpers.Driver;
 import io.qameta.allure.selenide.AllureSelenide;

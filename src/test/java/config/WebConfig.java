@@ -2,7 +2,7 @@ package config;
 
 import org.aeonbits.owner.Config;
 
-
+/*
 @Config.Sources("classpath:${environment}.properties")
 public interface WebConfig extends Config {
 
@@ -18,3 +18,6 @@ public interface WebConfig extends Config {
     @DefaultValue("1920x1080")
     String browserSize();
 }
+
+
+ */
