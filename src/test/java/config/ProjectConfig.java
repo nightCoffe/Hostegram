@@ -7,7 +7,7 @@ import org.aeonbits.owner.Config;
         "system:properties",
  //       "classpath:config/local.properties",
  //       "classpath:config/remote.properties",
-        "classpath:config/credentials.properties"
+        "classpath:credentials.properties"
 })
 
 public interface ProjectConfig extends Config {
